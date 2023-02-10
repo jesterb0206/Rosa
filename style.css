@@ -26,12 +26,18 @@ body {
   -webkit-background-size: cover;
 }
 
-/* H1 Styling */
+/* Text Clip Image */
 
-h1 {
-  font-size: 60px;
-  margin-left: 15px;
-  margin-top: 15px;
+#text__clip__image {
+  height: 500px;
+  left: 0%;
+  top: 0%;
+}
+
+@media screen and (max-width: 768px) {
+  #text__clip__image {
+    height: 300px;
+  }
 }
 
 /* Butterfly Image */
@@ -42,7 +48,7 @@ h1 {
   left: 0%;
   position: absolute;
   transform: rotate(45deg);
-  z-index: 2;
+  z-index: -1;
 }
 
 /* Butterfly Image 2 */
@@ -53,7 +59,7 @@ h1 {
   left: 91.5%;
   position: absolute;
   transform: rotate(-45deg);
-  z-index: 2;
+  z-index: -1;
 }
 
 @media screen and (max-width: 1440px) {
@@ -90,7 +96,7 @@ h1 {
   position: absolute;
   top: 50%;
   transform: translate(-50%, -50%);
-  z-index: -1;
+  z-index: -4;
 }
 
 @media screen and (max-width: 1440px) {
@@ -126,7 +132,7 @@ h1 {
   position: absolute;
   top: 50%;
   transform: translate(-50%, -50%);
-  z-index: -1;
+  z-index: -4;
 }
 
 @media screen and (max-width: 1440px) {
@@ -161,7 +167,7 @@ h1 {
   position: absolute;
   top: 50%;
   transform: translate(-50%, -50%);
-  z-index: 0;
+  z-index: -3;
 }
 
 @media screen and (max-width: 1440px) {
@@ -196,7 +202,7 @@ h1 {
   position: absolute;
   top: 45%;
   transform: translate(-50%, -50%);
-  z-index: -2;
+  z-index: -5;
 }
 
 @media screen and (max-width: 1440px) {
@@ -232,5 +238,5 @@ h1 {
   position: absolute;
   top: 50%;
   transform: translate(-50%, -50%);
-  z-index: 1;
+  z-index: -2;
 }
