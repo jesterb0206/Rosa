@@ -1,8 +1,236 @@
+/* Fonts */
+
+@font-face {
+  font-family: 'ITCKabelUltra';
+  src: local('ITCKabelUltra'), url('./Fonts/ITCKabelUltra/font.woff');
+}
+
+/* Universal Selector */
+
+* {
+  box-sizing: border-box;
+  font-family: ITCKabelUltra;
+  margin: 0;
+  padding: 0;
+}
+
+/* Background Image */
+
 body {
   background: url('./images/grainy-gradient-background-1.jpg') no-repeat center
     fixed;
   background-size: cover;
   -moz-background-size: cover;
   -o-background-size: cover;
+  overflow-x: hidden;
   -webkit-background-size: cover;
+}
+
+/* H1 Styling */
+
+h1 {
+  font-size: 60px;
+  margin-left: 15px;
+  margin-top: 15px;
+}
+
+/* Butterfly Image */
+
+#butterfly__image {
+  bottom: 5%;
+  height: 100px;
+  left: 0%;
+  position: absolute;
+  transform: rotate(45deg);
+  z-index: 2;
+}
+
+/* Butterfly Image 2 */
+
+#butterfly__image-2 {
+  bottom: 80%;
+  height: 100px;
+  left: 91.5%;
+  position: absolute;
+  transform: rotate(-45deg);
+  z-index: 2;
+}
+
+@media screen and (max-width: 1440px) {
+  #butterfly__image-2 {
+    bottom: 77.5%;
+    left: 85%;
+  }
+}
+
+@media screen and (max-width: 1024px) {
+  #butterfly__image-2 {
+    bottom: 85%;
+    left: 80%;
+  }
+}
+
+@media screen and (max-width: 768px) {
+  #butterfly__image-2 {
+    left: 70%;
+  }
+}
+
+@media screen and (max-width: 480px) {
+  #butterfly__image-2 {
+    left: 65%;
+  }
+}
+
+/* Flower Drawing Image */
+
+#flower__drawing__image {
+  left: 15%;
+  max-height: 800px;
+  position: absolute;
+  top: 50%;
+  transform: translate(-50%, -50%);
+  z-index: -1;
+}
+
+@media screen and (max-width: 1440px) {
+  #flower__drawing__image {
+    max-height: 700px;
+  }
+}
+
+@media screen and (max-width: 1024px) {
+  #flower__drawing__image {
+    max-height: 600px;
+  }
+}
+
+@media screen and (max-width: 768px) {
+  #flower__drawing__image {
+    max-height: 500px;
+  }
+}
+
+@media screen and (max-width: 480px) {
+  #flower__drawing__image {
+    max-height: 400px;
+  }
+}
+
+/* Flower Image */
+
+#flower__image {
+  left: 85%;
+  max-height: 800px;
+  max-width: 100%;
+  position: absolute;
+  top: 50%;
+  transform: translate(-50%, -50%);
+  z-index: -1;
+}
+
+@media screen and (max-width: 1440px) {
+  #flower__image {
+    max-height: 700px;
+  }
+}
+
+@media screen and (max-width: 1024px) {
+  #flower__image {
+    max-height: 600px;
+  }
+}
+
+@media screen and (max-width: 768px) {
+  #flower__image {
+    max-height: 500px;
+  }
+}
+
+@media screen and (max-width: 480px) {
+  #flower__image {
+    max-height: 400px;
+  }
+}
+
+/* Emo Rosa Image */
+
+#rosa__image {
+  left: 50%;
+  max-height: 900px;
+  position: absolute;
+  top: 50%;
+  transform: translate(-50%, -50%);
+  z-index: 0;
+}
+
+@media screen and (max-width: 1440px) {
+  #rosa__image {
+    max-height: 800px;
+  }
+}
+
+@media screen and (max-width: 1024px) {
+  #rosa__image {
+    max-height: 700px;
+  }
+}
+
+@media screen and (max-width: 768px) {
+  #rosa__image {
+    max-height: 600px;
+  }
+}
+
+@media screen and (max-width: 480px) {
+  #rosa__image {
+    max-height: 500px;
+  }
+}
+
+/* Emo Rosa 2 Image */
+
+#rosa__image__2 {
+  left: 50%;
+  max-height: 900px;
+  position: absolute;
+  top: 45%;
+  transform: translate(-50%, -50%);
+  z-index: -2;
+}
+
+@media screen and (max-width: 1440px) {
+  #rosa__image__2 {
+    max-height: 800px;
+  }
+}
+
+@media screen and (max-width: 1024px) {
+  #rosa__image__2 {
+    max-height: 700px;
+  }
+}
+
+@media screen and (max-width: 768px) {
+  #rosa__image__2 {
+    max-height: 600px;
+  }
+}
+
+@media screen and (max-width: 480px) {
+  #rosa__image__2 {
+    max-height: 500px;
+  }
+}
+
+/* Xs Image */
+
+#xs__image {
+  left: 50%;
+  max-height: 900px;
+  max-width: 100%;
+  position: absolute;
+  top: 50%;
+  transform: translate(-50%, -50%);
+  z-index: 1;
 }
