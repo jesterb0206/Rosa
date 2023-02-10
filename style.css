@@ -2,7 +2,7 @@
 
 @font-face {
   font-family: 'ITCKabelUltra';
-  src: local('ITCKabelUltra'), url('./Fonts/ITCKabelUltra/font.woff');
+  src: local('ITCKabelUltra'), url('./Fonts/font.woff');
 }
 
 /* Universal Selector */
@@ -30,14 +30,92 @@ body {
 
 #text__clip__image {
   height: 500px;
-  left: 0%;
-  top: 0%;
 }
 
 @media screen and (max-width: 768px) {
   #text__clip__image {
     height: 300px;
   }
+}
+
+/* Navigation Menu */
+
+.overlay {
+  background: url('./images/grainy-gradient-background-2.jpg') no-repeat center
+    fixed;
+  background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  overflow-x: hidden;
+  -webkit-background-size: cover;
+  display: none;
+  height: 100%;
+  left: 0;
+  position: absolute;
+  top: 0;
+  width: 100%;
+}
+
+ul {
+  left: 50%;
+  position: absolute;
+  top: 50%;
+  transform: translate(-50%, -50%);
+}
+
+ul li {
+  cursor: pointer;
+  font-size: 26px;
+  list-style-type: none;
+  margin: 20px 0;
+  text-transform: uppercase;
+  transition: all 0.2s ease;
+}
+
+ul li:hover {
+  transform: translateX(-10px);
+}
+
+a {
+  color: white;
+  font-size: 100px;
+  text-decoration: none;
+}
+
+.menu-btn {
+  appearance: none;
+  background: #fff;
+  border: 0 none;
+  cursor: pointer;
+  display: block;
+  height: 2px;
+  position: absolute;
+  right: 30px;
+  top: 30px;
+  width: 20px;
+  z-index: 10;
+}
+
+.menu-btn:active,
+.menu-btn:focus {
+  outline: 0 none;
+}
+
+.menu-btn:before,
+.menu-btn:after {
+  background: #fff;
+  content: '';
+  display: block;
+  height: 2px;
+  width: 20px;
+}
+
+.menu-btn:before {
+  transform: translateY(-6px);
+}
+
+.menu-btn:after {
+  transform: translateY(4px);
 }
 
 /* Butterfly Image */
