@@ -128,10 +128,7 @@ a {
 /* Butterfly Image */
 
 #butterfly__image {
-  bottom: 5%;
   height: 100px;
-  left: 0%;
-  position: relative;
   transform: rotate(45deg);
   z-index: -1;
 }
@@ -139,48 +136,15 @@ a {
 /* Butterfly Image 2 */
 
 #butterfly__image-2 {
-  bottom: 80%;
   height: 100px;
-  left: 91.5%;
-  position: relative;
   transform: rotate(-45deg);
   z-index: -1;
-}
-
-@media screen and (max-width: 1440px) {
-  #butterfly__image-2 {
-    bottom: 77.5%;
-    left: 85%;
-  }
-}
-
-@media screen and (max-width: 1024px) {
-  #butterfly__image-2 {
-    bottom: 85%;
-    left: 80%;
-  }
-}
-
-@media screen and (max-width: 768px) {
-  #butterfly__image-2 {
-    left: 70%;
-  }
-}
-
-@media screen and (max-width: 480px) {
-  #butterfly__image-2 {
-    left: 65%;
-  }
 }
 
 /* Flower Drawing Image */
 
 #flower__drawing__image {
-  left: 15%;
   max-height: 800px;
-  position: relative;
-  top: 50%;
-  transform: translate(-50%, -50%);
   z-index: -4;
 }
 
@@ -211,12 +175,7 @@ a {
 /* Flower Image */
 
 #flower__image {
-  left: 85%;
   max-height: 800px;
-  max-width: 100%;
-  position: relative;
-  top: 50%;
-  transform: translate(-50%, -50%);
   z-index: -4;
 }
 
@@ -247,11 +206,7 @@ a {
 /* Emo Rosa Image */
 
 #rosa__image {
-  left: 50%;
   max-height: 900px;
-  position: relative;
-  top: 50%;
-  transform: translate(-50%, -50%);
   z-index: -3;
 }
 
@@ -282,11 +237,7 @@ a {
 /* Emo Rosa 2 Image */
 
 #rosa__image__2 {
-  left: 50%;
   max-height: 900px;
-  position: relative;
-  top: 45%;
-  transform: translate(-50%, -50%);
   z-index: -5;
 }
 
@@ -317,11 +268,6 @@ a {
 /* Xs Image */
 
 #xs__image {
-  left: 50%;
   max-height: 900px;
-  max-width: 100%;
-  position: relative;
-  top: 50%;
-  transform: translate(-50%, -50%);
   z-index: -2;
 }
