@@ -22,8 +22,15 @@ body {
   background-size: cover;
   -moz-background-size: cover;
   -o-background-size: cover;
-  overflow-x: hidden;
   -webkit-background-size: cover;
+}
+
+/* Prevent Horizontal Scrolling */
+
+html,
+body,
+#overflow__wrapper {
+  overflow-x: hidden;
 }
 
 /* Text Clip Image */
@@ -124,7 +131,7 @@ a {
   bottom: 5%;
   height: 100px;
   left: 0%;
-  position: absolute;
+  position: relative;
   transform: rotate(45deg);
   z-index: -1;
 }
@@ -135,7 +142,7 @@ a {
   bottom: 80%;
   height: 100px;
   left: 91.5%;
-  position: absolute;
+  position: relative;
   transform: rotate(-45deg);
   z-index: -1;
 }
@@ -171,7 +178,7 @@ a {
 #flower__drawing__image {
   left: 15%;
   max-height: 800px;
-  position: absolute;
+  position: relative;
   top: 50%;
   transform: translate(-50%, -50%);
   z-index: -4;
@@ -207,7 +214,7 @@ a {
   left: 85%;
   max-height: 800px;
   max-width: 100%;
-  position: absolute;
+  position: relative;
   top: 50%;
   transform: translate(-50%, -50%);
   z-index: -4;
@@ -242,7 +249,7 @@ a {
 #rosa__image {
   left: 50%;
   max-height: 900px;
-  position: absolute;
+  position: relative;
   top: 50%;
   transform: translate(-50%, -50%);
   z-index: -3;
@@ -277,7 +284,7 @@ a {
 #rosa__image__2 {
   left: 50%;
   max-height: 900px;
-  position: absolute;
+  position: relative;
   top: 45%;
   transform: translate(-50%, -50%);
   z-index: -5;
@@ -313,7 +320,7 @@ a {
   left: 50%;
   max-height: 900px;
   max-width: 100%;
-  position: absolute;
+  position: relative;
   top: 50%;
   transform: translate(-50%, -50%);
   z-index: -2;
