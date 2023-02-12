@@ -48,7 +48,7 @@ body {
 /* Navigation Menu */
 
 .overlay {
-  background: url('./images/grainy-gradient-background-2.jpg') no-repeat center
+  background: url('./images/grainy-gradient-background-1.jpg') no-repeat center
     fixed;
   background-size: cover;
   -moz-background-size: cover;
@@ -85,7 +85,7 @@ ul li:hover {
 
 a {
   color: white;
-  font-size: 100px;
+  font-size: 50px;
   text-decoration: none;
 }
 
