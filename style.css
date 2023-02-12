@@ -325,3 +325,24 @@ a {
   transform: translate(-50%, -50%);
   z-index: -2;
 }
+
+/* Collage Photo Gallery Styling */
+
+#collage__photo__gallery {
+  border: 10px solid black;
+  margin-top: -350px;
+  max-width: 390px;
+  width: 90%;
+}
+
+@media screen and (max-width: 768px) {
+  #collage__photo__gallery {
+    margin-top: -180px;
+  }
+}
+
+.flex {
+  align-items: center;
+  display: flex;
+  justify-content: center;
+}
