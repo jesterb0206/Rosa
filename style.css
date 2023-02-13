@@ -165,7 +165,6 @@ a {
 
 #flower__drawing__image {
   left: 15%;
-  max-height: 700px;
   position: absolute;
   top: 50%;
   transform: translate(-50%, -50%);
@@ -174,25 +173,29 @@ a {
 
 @media screen and (max-width: 1440px) {
   #flower__drawing__image {
-    max-height: 700px;
+    height: 700px;
+    width: 410px;
   }
 }
 
 @media screen and (max-width: 1024px) {
   #flower__drawing__image {
-    max-height: 600px;
+    height: 600px;
+    width: 351px;
   }
 }
 
 @media screen and (max-width: 768px) {
   #flower__drawing__image {
-    max-height: 500px;
+    height: 500px;
+    width: 293px;
   }
 }
 
 @media screen and (max-width: 480px) {
   #flower__drawing__image {
-    max-height: 400px;
+    height: 400px;
+    width: 234px;
   }
 }
 
@@ -200,8 +203,6 @@ a {
 
 #flower__image {
   left: 85%;
-  max-height: 700px;
-  max-width: 100%;
   position: absolute;
   top: 50%;
   transform: translate(-50%, -50%);
@@ -210,25 +211,29 @@ a {
 
 @media screen and (max-width: 1440px) {
   #flower__image {
-    max-height: 700px;
+    height: 700px;
+    width: 498px;
   }
 }
 
 @media screen and (max-width: 1024px) {
   #flower__image {
-    max-height: 600px;
+    height: 600px;
+    width: 427px;
   }
 }
 
 @media screen and (max-width: 768px) {
   #flower__image {
-    max-height: 500px;
+    height: 500px;
+    width: 356px;
   }
 }
 
 @media screen and (max-width: 480px) {
   #flower__image {
-    max-height: 400px;
+    height: 400px;
+    width: 285px;
   }
 }
 
