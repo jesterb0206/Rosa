@@ -244,6 +244,44 @@ a {
   }
 }
 
+/* Sparkles Image */
+
+#sparkles {
+  left: 50%;
+  position: absolute;
+  top: 50%;
+  transform: translate(-50%, -50%);
+  z-index: -6;
+}
+
+@media screen and (min-width: 1025px) {
+  #sparkles {
+    height: 800px;
+    width: 800px;
+  }
+}
+
+@media screen and (max-width: 1024px) {
+  #sparkles {
+    height: 700px;
+    width: 700px;
+  }
+}
+
+@media screen and (max-width: 768px) {
+  #sparkles {
+    height: 600px;
+    width: 600px;
+  }
+}
+
+@media screen and (max-width: 480px) {
+  #sparkles {
+    height: 500px;
+    width: 500px;
+  }
+}
+
 /* Rosa Black and White Image */
 
 #rosa__black__and__white {
@@ -306,28 +344,42 @@ a {
   }
 }
 
-/* Xs Image */
+/* X Image */
 
-#xs__image {
+#x {
   left: 50%;
-  max-height: 800px;
-  max-width: 100%;
   position: absolute;
   top: 50%;
   transform: translate(-50%, -50%);
   z-index: -2;
 }
 
-/* Sparkles Image */
+@media screen and (min-width: 1025px) {
+  #x {
+    height: 800px;
+    width: 714px;
+  }
+}
 
-#sparkles__image {
-  left: 50%;
-  max-height: 800px;
-  max-width: 100%;
-  position: absolute;
-  top: 50%;
-  transform: translate(-50%, -50%);
-  z-index: -6;
+@media screen and (max-width: 1024px) {
+  #x {
+    height: 700px;
+    width: 625px;
+  }
+}
+
+@media screen and (max-width: 768px) {
+  #x {
+    height: 600px;
+    width: 536px;
+  }
+}
+
+@media screen and (max-width: 480px) {
+  #x {
+    height: 500px;
+    width: 447px;
+  }
 }
 
 /* Collage Photo Gallery Styling */
