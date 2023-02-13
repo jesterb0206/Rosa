@@ -250,7 +250,7 @@ a {
   left: 50%;
   max-height: 800px;
   position: absolute;
-  top: 50%;
+  top: 45%;
   transform: translate(-50%, -50%);
   z-index: -3;
 }
@@ -279,38 +279,41 @@ a {
   }
 }
 
-/* Emo Rosa 2 Image */
+/* Rosa Black and White Image */
 
-#rosa__image__2 {
+#rosa__black__and__white {
   left: 50%;
-  max-height: 800px;
   position: absolute;
   top: 45%;
   transform: translate(-50%, -50%);
   z-index: -5;
 }
 
-@media screen and (max-width: 1440px) {
-  #rosa__image__2 {
-    max-height: 800px;
+@media screen and (min-width: 1025px) {
+  #rosa__black__and__white {
+    height: 800px;
+    width: 370px;
   }
 }
 
 @media screen and (max-width: 1024px) {
-  #rosa__image__2 {
-    max-height: 700px;
+  #rosa__black__and__white {
+    height: 700px;
+    width: 323px;
   }
 }
 
 @media screen and (max-width: 768px) {
-  #rosa__image__2 {
-    max-height: 600px;
+  #rosa__black__and__white {
+    height: 600px;
+    width: 277px;
   }
 }
 
 @media screen and (max-width: 480px) {
-  #rosa__image__2 {
-    max-height: 500px;
+  #rosa__black__and__white {
+    height: 500px;
+    width: 231px;
   }
 }
 
@@ -330,7 +333,7 @@ a {
 
 #sparkles__image {
   left: 50%;
-  max-height: 1000px;
+  max-height: 800px;
   max-width: 100%;
   position: absolute;
   top: 50%;
@@ -342,7 +345,7 @@ a {
 
 #collage__photo__gallery {
   border: 10px solid black;
-  border-radius: 100px;
+  border-radius: 55px;
   margin-bottom: 48px;
   margin-top: -350px;
   max-width: 500px;
