@@ -244,47 +244,12 @@ a {
   }
 }
 
-/* Emo Rosa Image */
-
-#rosa__image {
-  left: 50%;
-  max-height: 800px;
-  position: absolute;
-  top: 45%;
-  transform: translate(-50%, -50%);
-  z-index: -3;
-}
-
-@media screen and (max-width: 1440px) {
-  #rosa__image {
-    max-height: 800px;
-  }
-}
-
-@media screen and (max-width: 1024px) {
-  #rosa__image {
-    max-height: 700px;
-  }
-}
-
-@media screen and (max-width: 768px) {
-  #rosa__image {
-    max-height: 600px;
-  }
-}
-
-@media screen and (max-width: 480px) {
-  #rosa__image {
-    max-height: 500px;
-  }
-}
-
 /* Rosa Black and White Image */
 
 #rosa__black__and__white {
   left: 50%;
   position: absolute;
-  top: 45%;
+  top: 50%;
   transform: translate(-50%, -50%);
   z-index: -5;
 }
@@ -314,6 +279,30 @@ a {
   #rosa__black__and__white {
     height: 500px;
     width: 231px;
+  }
+}
+
+/* Rosa Image */
+
+#rosa {
+  left: 50%;
+  position: absolute;
+  top: 65%;
+  transform: translate(-50%, -50%);
+  z-index: -3;
+}
+
+@media screen and (min-width: 481px) {
+  #rosa {
+    height: 600px;
+    width: 450px;
+  }
+}
+
+@media screen and (max-width: 480px) {
+  #rosa {
+    height: 500px;
+    width: 375px;
   }
 }
 
