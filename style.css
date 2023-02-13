@@ -27,22 +27,10 @@ body {
 
 /* Prevent Horizontal Scrolling */
 
-html,
-body {
+body,
+html {
   max-width: 100%;
   overflow-x: hidden;
-}
-
-/* Text Clip Image */
-
-#text__clip__image {
-  height: 500px;
-}
-
-@media screen and (max-width: 768px) {
-  #text__clip__image {
-    height: 300px;
-  }
 }
 
 /* Navigation Menu */
@@ -241,6 +229,26 @@ a {
 @media screen and (max-width: 480px) {
   #flower__image {
     max-height: 400px;
+  }
+}
+
+/* Text Clip Image */
+
+#text__clip__text {
+  height: 500px;
+  left: 0px;
+  position: absolute;
+  top: -195px;
+  width: 332px;
+  z-index: 10;
+}
+
+@media screen and (max-width: 768px) {
+  #text__clip__text {
+    height: 300px;
+    left: 5px;
+    top: -115px;
+    width: 199px;
   }
 }
 
