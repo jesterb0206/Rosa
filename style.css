@@ -2,7 +2,7 @@
 
 @font-face {
   font-family: 'ITCKabelUltra';
-  src: local('ITCKabelUltra'), url('/components/Fonts/font.woff');
+  src: local('ITCKabelUltra'), url('./Fonts/font.woff');
 }
 
 /* Universal Selector */
@@ -17,7 +17,7 @@
 /* Background Image */
 
 body {
-  background: url('../images/home/grainy-gradient-background.webp') no-repeat
+  background: url('./images/home/grainy-gradient-background.webp') no-repeat
     center fixed;
   background-size: cover;
   -moz-background-size: cover;
@@ -36,7 +36,7 @@ html {
 /* Navigation Menu */
 
 .overlay {
-  background: url('../images/home/grainy-gradient-background.webp') no-repeat
+  background: url('./images/home/grainy-gradient-background.webp') no-repeat
     center fixed;
   background-size: cover;
   -moz-background-size: cover;
