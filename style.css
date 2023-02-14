@@ -17,12 +17,16 @@
 /* Background Image */
 
 body {
-  background: url('./images/home/grainy-gradient-background.webp') no-repeat
-    center fixed;
-  background-size: cover;
-  -moz-background-size: cover;
-  -o-background-size: cover;
-  -webkit-background-size: cover;
+  background-image: linear-gradient(
+    45deg,
+    hsl(344deg 85% 65%) 0%,
+    hsl(335deg 83% 70%) 32%,
+    hsl(2deg 91% 65%) 56%,
+    hsl(15deg 89% 55%) 73%,
+    hsl(14deg 86% 65%) 85%,
+    hsl(0deg 79% 76%) 100%
+  );
+  margin: 1px;
 }
 
 /* Prevent Horizontal Scrolling */
@@ -36,13 +40,15 @@ html {
 /* Navigation Menu */
 
 .overlay {
-  background: url('./images/home/grainy-gradient-background.webp') no-repeat
-    center fixed;
-  background-size: cover;
-  -moz-background-size: cover;
-  -o-background-size: cover;
-  overflow-x: hidden;
-  -webkit-background-size: cover;
+  background-image: linear-gradient(
+    45deg,
+    hsl(344deg 85% 65%) 0%,
+    hsl(335deg 83% 70%) 32%,
+    hsl(2deg 91% 65%) 56%,
+    hsl(15deg 89% 55%) 73%,
+    hsl(14deg 86% 65%) 85%,
+    hsl(0deg 79% 76%) 100%
+  );
   display: none;
   height: 150%;
   left: 0;

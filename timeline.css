@@ -1,28 +1,33 @@
+/* Prevent Horizontal Scrolling */
+
+body,
+html {
+  overflow-x: hidden;
+}
+
+/* Header Styling */
+
+header {
+  color: #fff;
+  left: 50%;
+  margin-top: 200px;
+  position: absolute;
+  transform: translateX(-50%);
+}
+
+h1 {
+  font-size: 40px;
+  letter-spacing: 3px;
+  text-align: center;
+  text-transform: uppercase;
+}
+
 section {
   padding: 100px 0;
 }
-html,
-body {
-  overflow-x: hidden;
-}
-body {
-  font-family: 'Roboto';
-  font-size: 17px;
-  font-weight: 400;
-  background-color: #eee;
-}
-h1 {
-  font-size: 200%;
-  text-transform: uppercase;
-  letter-spacing: 3px;
-  font-weight: 400;
-}
-header {
-  color: #fff;
-  padding: 150px 0;
-}
 .timeline {
-  position: relative;
+  margin-top: 200px;
+  position: absolute;
 }
 .timeline::before {
   content: '';
@@ -61,6 +66,7 @@ header {
   display: block;
   clear: both;
 }
+
 .timeline-content {
   position: relative;
   width: 45%;
