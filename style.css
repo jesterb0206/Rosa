@@ -378,6 +378,13 @@ a {
   }
 }
 
+@media screen and (max-width: 390px) {
+  #rosa {
+    left: 53%;
+    top: 65.75%;
+  }
+}
+
 /* X Image */
 
 #x {
