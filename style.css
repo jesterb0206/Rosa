@@ -17,7 +17,7 @@
 /* Background Image */
 
 body {
-  background: url('./images/home/grainy-gradient-background-1.jpg') no-repeat
+  background: url('./images/home/grainy-gradient-background-1.webp') no-repeat
     center fixed;
   background-size: cover;
   -moz-background-size: cover;
@@ -36,7 +36,7 @@ html {
 /* Navigation Menu */
 
 .overlay {
-  background: url('./images/home/grainy-gradient-background-1.jpg') no-repeat
+  background: url('./images/home/grainy-gradient-background-1.webp') no-repeat
     center fixed;
   background-size: cover;
   -moz-background-size: cover;
