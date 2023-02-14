@@ -8,14 +8,16 @@
       name="description"
       content="This page includes a collage of photos of my girlfriend Rosa and I!"
     />
-    <link rel="stylesheet" href="style.css" />
-    <!-- Make New Favicon-->
-    <!-- https://favicon.io/favicon-converter/ -->
+    <link rel="stylesheet" href="/components/styles/style.css" />
+    <link rel="apple-touch-icon" sizes="180x180" href="/apple-touch-icon.png" />
+    <link rel="icon" type="image/png" sizes="32x32" href="/favicon-32x32.png" />
+    <link rel="icon" type="image/png" sizes="16x16" href="/favicon-16x16.png" />
+    <link rel="manifest" href="/site.webmanifest" />
     <title>Rosa ❤️</title>
   </head>
   <body>
     <img
-      src="images/home/text-clip.webp"
+      src="/components/images/home/text-clip.webp"
       alt="Text Clipped Text"
       width="930"
       height="1402"
@@ -37,23 +39,38 @@
     <section>
       <div class="flex">
         <img
-          src="images/gallery.png"
+          src="/components/images/gallery/gallery.webp"
           alt="Collage Photo Gallery"
           id="collage__photo__gallery"
         />
       </div>
+      <!---->
       <!-- Background Images -->
-      <img src="images/squibbles.png" alt="Squibbles" id="squibbles__photo" />
       <img
-        src="images/squibbles-2.png"
-        alt="Squibbles 2"
+        src="/components/images/gallery/abstract-shapes.webp"
+        alt="Abstract Shapes"
+        id="squibbles__photo"
+      />
+      <img
+        src="/components/images/gallery/abstract-flowers.webp"
+        alt="Abstract Flowers"
         id="squibbles__photo__2"
       />
-      <img src="images/flower-3.png" alt="Flowers 3" id="flowers__3__image" />
-      <img src="images/flower-3.png" alt="Flowers 3" id="flowers__4__image" />
+      <!-- Sunflower Images -->
+      <img
+        src="/components/images/gallery/flower-1.webp"
+        alt="Sunflower"
+        id="flowers__3__image"
+      />
+      <img
+        src="/components/images/gallery/flower-1.webp"
+        alt="Sunflower"
+        id="flowers__4__image"
+      />
+      <!---->
     </section>
     <!---->
     <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.6.3/jquery.min.js"></script>
-    <script src="script.js"></script>
+    <script src="/components/scripts/script.js"></script>
   </body>
 </html>
